@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>learn bootstrap</title>
+    <!-- to use Bootstrap on your website need to use these CDN links -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- to use Bootstrap on your website need to use these CDN links -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./learnbootstrap.css" />
+  </head>
+  <body>
+    <!-- code to learn containers and the grid system in Bootstrap (need to un-comment the css code as well.)
+
+      <div class="container-fluid">
+      <h2>Hello Bootstrap</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum totam
+        atque, blanditiis eveniet delectus tempore optio! Nam totam modi
+        quibusdam dolorum doloribus. Repudiandae illo accusantium tenetur et
+        quas eveniet, dolorum incidunt corrupti quod veniam soluta id dolore
+        odit reiciendis rem perspiciatis quos dolor sequi molestiae.
+        Voluptatibus animi vero eaque quibusdam?
+      </p>
+      <div class="row">
+        <div class="col-sm-4 content1-left">left</div>
+        <div class="col-sm-4 content1-center">center</div>
+        <div class="col-sm-4 content1-right">right</div>
+      </div>
+    </div> -->
+
+    <!-- code to learn text and fonts in Bootstrap (NO need to un-comment the css code.)
+    <div class="container-fluid">
+      <h1>
+        <small>i love you</small>
+        <abbr
+          title="Mandi is a girl's name of Latin origin, meaning worthy of love. Shorter than Amanda but equally as sweet, it will bring out the affectionate side in your little munchkin."
+          >mandi!</abbr
+        >
+      </h1>
+      <h2>Header</h2>
+      <h3>Header</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <mark>Delectus, autem.</mark>
+        
+      </p>
+      <p>hello!<blockquote>i don't know about you
+        but i'm feeling 22
+        everything will be alright if
+        you keep me next to you.<footer>taylor alison swift</footer></blockquote></p>
+        <p>this is some text to teach coding: <code><p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          <mark>Delectus, autem.</mark>
+          </p></code></p>
+          <p>to take a screenshot you need to use these key combinations <kbd>windows logo + shift + s</kbd></p>
+    </div>  -->
+
+    <!-- code to learn responsive images in Bootstrap (need to un-comment the css code.)
+    <div class="container-fluid">
+      <h2>愛してるマンディ!</h2>
+      <p>ずっとずっと一緒に居ようね。ずっとそばに居たい。</p>
+      <div class="row">
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/shrine-japan.jpeg"
+            alt="japanese-shrine"
+          />
+        </div>
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/niyodo-river.jpg"
+            alt="niyodo-river"
+          />
+        </div>
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/tokyo-japan.jpg"
+            alt="Tokyo"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/Akihabara-Tokyo.jpg"
+            alt="Akihabara-Tokyo"
+          />
+        </div>
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/tonkotsu-ramen.jpg"
+            alt="tonkotsu-ramen"
+          />
+        </div>
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/geisha-katana.jpg"
+            alt="geisha-katana"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/hate-naruto.gif"
+            alt="hate-naruto"
+          />
+        </div>
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/gtr.gif"
+            alt="nissan-gtr"
+          />
+        </div>
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/cyberpunk-cyberpunk-anime.gif"
+            alt="cyberpunk"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/gal-cars.jpg"
+            alt="schoolgirl"
+          />
+        </div>
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/japanese-eu.png"
+            alt="japanese-eu-alliance"
+          />
+        </div>
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/robotics-yamaha.jpg"
+            alt="japanese-robotics"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/sega-sega-logo.gif"
+            alt="sega"
+          />
+        </div>
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/j-pop.gif"
+            alt="karina"
+          />
+        </div>
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/lucy-david.gif"
+            alt="lucy-david"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/tokyo-japan.jpeg"
+            alt="Tokyo"
+          />
+        </div>
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/Tokyo-Akihabara-2.jpg"
+            alt="Tokyo-Akihabara"
+          />
+        </div>
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/sha-icegif.gif"
+            alt="itachi-uchiha"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/japan-blade-runner.gif"
+            alt="japan-blade-runner"
+          />
+        </div>
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/hyuuga-hinata.jpg"
+            alt="hyuuga-hinata"
+          />
+        </div>
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/toyota-supra.gif"
+            alt="toyota-supra"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/aesthetic-anime-girl-samurai.jpg"
+            alt="anime-girl-samurai"
+          />
+        </div>
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/marin.jpg"
+            alt="marin"
+          />
+        </div>
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/shinobu.jpg"
+            alt="shinobu"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/girl-samurai.jpg"
+            alt="girl-samurai"
+          />
+        </div>
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/playstation.jpg"
+            alt="playstation"
+          />
+        </div>
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/samurai-pink.png"
+            alt="samurai-pink"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/samurai-wallpaper.jpg"
+            alt="samurai-wallpaper"
+          />
+        </div>
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/Mount-Fuji-Japan.jpg"
+            alt="Mount-Fuji-Japan"
+          />
+        </div>
+        <div class="col-sm-4 center">
+          <img
+            class="img-fluid rounded img-thumbnail"
+            src="images/dragon-samurai.jpg"
+            alt="dragon-samurai"
+          />
+        </div>
+      </div>
+    </div> -->
+
+    <!-- code to learn embeds in Bootstrap (NO need to un-comment the css code.)
+    <div class="container-fluid">
+      <h2>sped up songs: playlist :3</h2>
+      <p>coding fuel.</p>
+      <div class="row">
+        <div class="col-sm-4 center">
+          
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/ETecZsoA0jo"
+            ></iframe>
+          </div>
+        </div>
+        <div class="col-sm-4 center">
+          
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/ETecZsoA0jo"
+            ></iframe>
+          </div>
+        </div>
+        <div class="col-sm-4 center">
+          
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/ETecZsoA0jo"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 center">
+          
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/ETecZsoA0jo"
+            ></iframe>
+          </div>
+        </div>
+        <div class="col-sm-4 center">
+          
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/ETecZsoA0jo"
+            ></iframe>
+          </div>
+        </div>
+        <div class="col-sm-4 center">
+          
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/ETecZsoA0jo"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- code to learn navigation bar with search box in Bootstrap (NO need to un-comment the css code.) 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="images/itachi-sharingan.gif"
+            alt=""
+            width="150"
+            height="102"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">ITEM 1</a></li>
+                <li><a class="dropdown-item" href="#">ITEM 2</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">ANOTHER ITEM</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Disabled Link</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>  -->
+
+    <!-- code to learn tables in Bootstrap (NO need to un-comment the css code.)  
+    <div class="table-responsive">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+            <th>City</th>
+            <th>Country</th>
+            <th>Sex</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Mandi</td>
+            <td>Hewage</td>
+            <td>22</td>
+            <td>Kandy</td>
+            <td>Ceylon</td>
+            <td>Female</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Supun</td>
+            <td>Wijesooriya</td>
+            <td>23</td>
+            <td>Kandy</td>
+            <td>Ceylon</td>
+            <td>Male</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Mandi</td>
+            <td>Wijesooriya</td>
+            <td>25</td>
+            <td>Sydney</td>
+            <td>Australia</td>
+            <td>Female</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Supun</td>
+            <td>Wijesooriya</td>
+            <td>26</td>
+            <td>Sydney</td>
+            <td>Australia</td>
+            <td>Male</td>
+          </tr>
+        </tbody>
+      </table>
+    </div> -->
+
+    <!-- code to learn forms in Bootstrap (need to un-comment the css code.) 
+    <h2>Example Form</h2>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+          <form action="#">
+            <div class="mb-3 mt-3">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Enter email"
+                name="email"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="pwd">Age:</label>
+              <select class="form-select">
+                <option>10></option>
+                <option>10-20</option>
+                <option>20-30</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="age">Password:</label>
+              <input
+                type="password"
+                class="form-control"
+                id="pwd"
+                placeholder="Enter password"
+                name="pswd"
+                required
+              />
+            </div>
+            <div class="form-check mb-3">
+              <label class="form-check-label">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  name="remember"
+                />
+                Remember me
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="col-sm-4"></div>
+      </div>
+    </div> -->
+
+    <!-- code to learn alerts in Bootstrap (need to un-comment the css code.) 
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <div
+            class="alert alert-success alert-dismissible fade show"
+            role="alert"
+          >
+            <strong>mandi, i love you.</strong>&nbsp; lets love each other like
+            this for the rest of our
+            <a
+              href="https://supunxiii.github.io/my-world/mandinee+supun.html"
+              class="alert-link"
+              target="_blank"
+              >lives!</a
+            ><button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="alert"
+              aria-label="Close"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- code to learn cards in Bootstrap (need to un-comment the css code.)
+    <div class="container">
+      <div class="card" style="width: 400px">
+        <img src="images/tokyo-japan.jpeg" alt="" class="card-img-top" />
+        <div class="card-body">
+          <div class="card-title">Tokyo</div>
+          <div class="card-subtitle">東京</div>
+          <div class="card-text">
+            Tokyo (東京, Tōkyō) is Japan's capital and the world's most populous
+            metropolis. It is also one of Japan's 47 prefectures, consisting of
+            23 central city wards and multiple cities, towns and villages west
+            of the city center. The Izu and Ogasawara Islands are also part of
+            Tokyo.
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- code to learn modals in Bootstrap (need to un-comment the css code.)
+    <div class="container">
+      <button
+        class="btn btn-danger"
+        data-bs-toggle="modal"
+        data-bs-target="#modal"
+      >
+        mandi+ruu
+      </button>
+      <div class="modal fade modal-lg" id="modal">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>mandi+ruu</h2>
+              <button
+                class="btn-close"
+                data-bs-dismiss="modal"
+                data-bs-target="#modal"
+              ></button>
+            </div>
+            <div class="modal-body">i love you so much bae!</div>
+            <div class="modal-footer">˗ˋˏ ♡ ˎˊ˗</div>
+          </div>
+        </div>
+      </div>
+    </div>  -->
+  </body>
+</html>

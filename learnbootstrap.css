@@ -1,0 +1,61 @@
+/* css code to learn containers and the grid system in Bootstrap
+ .content1-left {
+  background-color: red;
+  height: 450px;
+}
+.content1-center {
+  background-color: white;
+  height: 450px;
+}
+.content1-right {
+  background-color: blue;
+  height: 450px;
+} 
+
+*/
+
+/* css code to learn responsive images in Bootstrap 
+.left {
+  background-color: #ccc;
+}
+
+.center {
+  background-color: #eee;
+}
+
+.right {
+  background-color: #ccc;
+}
+.container-fluid {
+  text-align: center;
+  padding-top: 40px;
+}
+*/
+
+/* css code to learn forms in Bootstrap
+h2 {
+  padding-top: 10px;
+  text-align: center;
+}
+*/
+
+/* css code to learn alerts in Bootstrap
+.container-fluid {
+  padding-top: 20px;
+}
+.alert {
+  text-align: center !important;
+}
+*/
+
+/* css code to learn cards in Bootstrap
+.container {
+  padding-top: 50px;
+}
+*/
+
+/* css code to learn modals in Bootstrap
+.container {
+  padding-top: 50px;
+}
+*/
