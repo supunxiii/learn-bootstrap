@@ -2,8 +2,6 @@
 
 learn-bootstrap is a code-short note to understand the basics of Bootstrap, designed as a simple, code-first learning aid. To learn, users can uncomment the code lines and run the HTML file to see how each concept works in practice. It briefly covers core theory such as containers, the grid system, typography, responsive images, embeds, navigation bars, tables, forms, alerts, cards, and modals.
 
-Designed and developed by Supun Wijesooriya.
-
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.0--alpha1-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
 
 ## Features
@@ -40,10 +38,6 @@ The learn-bootstrap notes include the following:
    - Form controls, selects, and validation
    - Alerts, cards, and modals
 
-## User Interfaces
-
-User interface images are not included in this README.
-
 ## Technologies Used
 
 - **Bootstrap 5.3.0-alpha1**: Front-end framework loaded via CDN
@@ -72,7 +66,7 @@ To run the notes locally, follow these steps:
 
 This project was developed by:
 
-- **Supun Wijesooriya**
+- **Supun Wijesooriya** - Developer
 
 ## Contributing
 
